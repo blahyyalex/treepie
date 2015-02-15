@@ -1,0 +1,278 @@
+﻿       body{
+            font-family: 'Roboto', sans-serif;
+            font-weight:400;
+            margin:0;
+            padding:0;
+         
+        }
+        ul, li{
+            padding:0;
+            margin:0;
+        }
+        h2{
+            font-size:26px;
+        }
+        h3{
+            font-size:24px;
+        }
+       .header, .main, .footer {
+            max-width:960px;
+            min-width: 640px;
+            height:100%;
+            margin:0 auto;
+        }
+        .header{
+            background:url(images/bg_head.png) repeat-x;
+            height:96px;
+            
+        }
+        .header .logo{
+            float:left;
+            width:205px;
+            height:52px;
+            background:url(images/logo.png);
+            margin-top:20px;
+            margin-left:30px;
+        }
+        .header .icon{
+            float:right;
+            margin-top:25px;
+        }
+        .icon .icon_1{
+            width:48px;
+            height:48px;
+            background:url(images/1.png) center no-repeat;
+            display:inline-block;
+            margin-right:20px;
+        }
+        .icon .icon_1:hover{
+            cursor:pointer;
+            background:#2495BC url(images/1.png) center no-repeat;
+        }
+        .icon .icon_2{
+            width:48px;
+            height:48px;
+            background:url(images/2.png) center no-repeat;
+             display:inline-block;
+             margin-right:20px;
+        }
+         .icon .icon_2:hover{
+            cursor:pointer;
+            background:#2495BC url(images/2.png) center no-repeat;
+        }
+        .icon .icon_3{
+            width:48px;
+            height:48px;
+            background:url(images/3.png) center no-repeat;
+             display:inline-block;
+             margin-right:20px;
+        }
+         .icon .icon_3:hover{
+            cursor:pointer;
+            background:#2495BC url(images/3.png) center no-repeat;
+        }
+        .icon .icon_4{
+            width:48px;
+            height:48px;
+            background:url(images/4.png) center no-repeat;
+             display:inline-block;
+             margin-right:20px;
+        }
+         .icon .icon_4:hover{
+            cursor:pointer;
+            background:#2495BC url(images/4.png) center no-repeat;
+        }
+        .main {
+            margin-top:30px;
+        }
+
+        .content {
+           float:left;
+           width:535px;
+           margin:0 20px;
+        }
+        .content .article{
+            float:left;
+            margin-bottom:20px;
+            border-bottom: 1px solid #D8D8D8;
+        }
+        .content .pagination{
+            float:left;
+            margin-top:10px;
+           
+        }
+        .content .pagination .pag{
+            width:46px;
+            height:46px;
+            border: 1px solid #D8D8D8;
+            background:none; 
+            margin:0 10px;
+            color:#D8D8D8;
+        }
+        .content .pagination .pag2{
+            width:46px;
+            height:46px;
+            border: 1px solid #D8D8D8;
+            background:none; 
+            padding-top:10px;
+            color:#D8D8D8;
+        }
+        .content .pagination .pag6{
+            width:46px;
+            height:46px;
+            border: 1px solid #D8D8D8;
+            background:none; 
+            
+            color:#D8D8D8;
+        }
+        .content .pagination .pag:hover{
+            background:#2495BC;
+        }
+        .content .pagination .pag2{
+            background:url(images/left.png) center no-repeat;
+        }
+        .content .pagination .pag2:hover{
+            background:#2495BC url(images/left.png) center no-repeat;
+        }
+        .content .pagination .pag6{
+            background:url(images/right.png) center no-repeat;
+        }
+        .content .pagination .pag6:hover{
+            background:#2495BC url(images/right.png) center no-repeat;
+        }
+        .article .center{
+            float:left;
+            font-weight:400;
+        }
+        .article .hashtag{
+            float:left;
+            margin-bottom:40px;
+            
+        }
+        .article .hashtag > a{
+            margin-right:30px;
+        }
+
+        .article .zag{
+            color:#4e4e4e;
+        }
+        .article .badroom{
+            width:520px;
+            height:304px;
+            display:block;
+        }
+       .article a{
+            color:#ababab;
+            font-size:14px;
+            text-decoration:none;
+            
+        }
+
+        .article .social{
+            float:left;
+            margin-top:10px;
+            height:20px;
+            line-height:20px;
+            
+        }
+        .article .social .date{
+            float:left;
+            color:#ababab;
+            font-size:14px;
+       }
+        .article .social_icon{
+            padding:0 10px;
+           
+            width:16px;
+            height:14px;
+            
+        }
+        .article .social_iconn{
+            padding:0 10px;
+            width:20px;
+            height:14px;
+          
+        }
+        
+        .aside {
+           margin-left:50px;
+           width:300px;
+           float:left;
+        }
+        .aside .interesting_articles{
+            border-bottom: 1px solid #D8D8D8;
+        }
+        .aside .interesting_articles > a{
+           display:block;
+           color:#ababab;
+           font-size:14px;
+           text-decoration:none;
+        }
+        .aside .interesting_articles .text_link{
+           display:block;
+           color:#444444;
+           font-size:18px;
+           text-decoration:none;
+           margin:15px 0;
+        }
+        .aside .interesting_articles .date{
+           display:block;
+           color:#ababab;
+           font-size:14px;
+            margin-top:20px;
+        }
+        .aside .reklama{
+            float:left;
+            margin-top:30px;
+        }
+        .reklama .baner{
+            float:left;
+            width:230px;
+            height:120px;
+            background:#C7C7C7;
+            margin-top:25px;
+        }
+        .reklama .baner_img{
+            width:232px;
+            height:200px;
+        }
+        .aside .special{
+            float:left;
+            margin-top:40px;
+        }
+        .aside .special > a{
+           display:block;
+           color:#ababab;
+           font-size:14px;
+           text-decoration:none;
+        }
+        .aside .special .text_link{
+           display:block;
+           color:#444444;
+           font-size:18px;
+           text-decoration:none;
+           margin:15px 0;
+        }
+        .aside .special .date{
+           display:block;
+           color:#ababab;
+           font-size:14px;
+            margin-top:20px;
+        }
+        .aside .special .but{
+            margin-top:10px;
+            width:126px;
+            height:46px;
+            border: 1px solid #D8D8D8;
+            background:none;
+        }
+        .aside .special .but:hover{
+           cursor:pointer;
+        }
+
+        .footer {
+         
+        }
+        .clear {
+            clear:both;
+        }
